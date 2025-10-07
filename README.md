@@ -132,7 +132,7 @@ The 2-3% gap is due to:
 
 ## 🛠️ Methodology
 
-1. **Data Source:** S&P 500 daily closing prices (1950-2025)
+1. **Data Source:** S&P 500 daily closing prices (1950-2025) from [Stooq.com](https://stooq.com/q/d/?s=%5Espx)
 2. **Backtesting:** Historical simulation with no lookahead bias
 3. **Hybrid Trigger Logic:**
    - Track 252-day (52-week) rolling high
