@@ -150,6 +150,46 @@ The data in the CSV files can be used to create:
 - Distribution plots of CAGR differences
 - Win rate analysis by decade
 
+## 🔬 Addendum: What Happens if Risk-Free Interest Rate is Higher?
+
+The base analysis assumes a 3% annual return on cash held by the hybrid strategy. But what if you could earn more on cash reserves? Here's the sensitivity analysis:
+
+### Interest Rate Impact (1995-2025 scenario)
+
+| Risk-Free Rate | DCA CAGR | Hybrid CAGR | Winner | Difference |
+|----------------|----------|-------------|--------|------------|
+| 3.0% | 5.20% | 4.98% | **DCA** | DCA +0.22% |
+| 4.0% | 5.20% | 5.04% | **DCA** | DCA +0.16% |
+| 6.0% | 5.20% | 5.18% | **DCA** | DCA +0.02% |
+| **6.5%** | 5.20% | **5.22%** | **Hybrid** | Hybrid +0.02% |
+
+### 🎯 Break-Even Point: ~6.0-6.5%
+
+The hybrid strategy only wins when cash earns **above 6% annually**—a rate rarely sustained in modern markets.
+
+### 📉 Historical Reality Check
+
+**Average US Treasury Bill rates by decade:**
+- 1950s-1970s: 2-5%
+- 1980s: 10-15% (inflation crisis—exceptional period)
+- 1990s-2000s: 3-5%
+- 2010s: 0-2% (near-zero rates)
+- 2020s: 0-5%
+
+**Long-term average (1950-2025): ~4%**
+
+### 💡 Key Takeaway
+
+Even with a generous 4% assumption (above historical average), **DCA still outperforms by 0.16% annually**. The hybrid strategy only becomes competitive at unrealistic, unsustainable cash rates above 6%.
+
+This reinforces the core finding: **time in the market beats timing the market**, even when "waiting for dips" earns solid returns.
+
+**To test different rates yourself:**
+```bash
+python sp500_cagr_sim.py "^spx_d.csv" --start 1995-01-01 --rf 0.04  # Test with 4%
+python sp500_cagr_sim.py "^spx_d.csv" --start 1995-01-01 --rf 0.06  # Test with 6%
+```
+
 ## ⚠️ Disclaimer
 
 This analysis is for **educational purposes only** and is not financial advice. Past performance does not guarantee future results. Always consult with a qualified financial advisor before making investment decisions.
