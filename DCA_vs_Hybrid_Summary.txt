@@ -1,0 +1,100 @@
+================================================================================
+        DOLLAR-COST AVERAGING vs MARKET TIMING: A DATA-DRIVEN ANALYSIS
+                   Why "Buying the Dip" Doesn't Beat Simple DCA
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+We analyzed 462 investment scenarios using 75 years of S&P 500 data to compare 
+traditional DCA against a hybrid "buy-the-dip" strategy.
+
+RESULT: DCA wins 94% of the time.
+
+METHODOLOGY
+-----------
+• 11 start periods (1950-2020)
+• 7 buy days per month (1st, 5th, 10th, 15th, 20th, 25th, 28th)
+• 6 hybrid strategies (buy dips at -5%, -10%, -15%, -20%, -25%, -30%)
+• Monthly budget: $1,000
+• Hybrid: 50% invested monthly, 50% held in cash at 3% until dip
+
+KEY FINDINGS
+------------
+
+1. DCA DOMINATES
+   • Win Rate: 93.9% (434 out of 462 scenarios)
+   • Average CAGR: 6.14% vs Hybrid 5.88%
+   • Average outperformance: +0.26% annually
+
+2. NO HYBRID STRATEGY BEATS DCA CONSISTENTLY
+
+   Drop Threshold    Hybrid Win Rate    CAGR Difference
+   -----------------------------------------------------
+   5% drop                0%                -0.20%
+   10% drop               0%                -0.29%
+   15% drop               0%                -0.21%
+   20% drop               9%                -0.26%
+   25% drop               9%                -0.21%
+   30% drop              18%                -0.37%
+
+   Even the "best" hybrid (30% drop) loses 82% of the time!
+
+3. BUY DAY DOESN'T MATTER
+   • Investing on 1st vs 28th differs by only 0.01% CAGR
+   • Start year matters 92x more than buy day
+   • Stop trying to time purchases within the month
+
+4. HYBRID'S ONLY BENEFIT: SLIGHTLY LOWER DRAWDOWN
+   • DCA max drawdown: 46.8%
+   • Hybrid max drawdown: 43.5%
+   • Benefit: 3.3% less pain during crashes
+   • Cost: 0.26% lower returns annually (not worth it!)
+
+WHY HYBRID STRATEGIES FAIL
+---------------------------
+THE OPPORTUNITY COST PROBLEM:
+• Holding 50% cash at 3% while markets grow at ~8-10% annually
+• Major dips (20%+) are rare: only 3-7 events in 30 years
+• Cash drag compounds over decades, overwhelming dip-buying benefits
+
+REAL EXAMPLE (1995-2025):
+• DCA: $370,000 → $1,758,866 (5.20% CAGR)
+• Hybrid: $370,000 → $1,648,603 (4.98% CAGR)
+• Cost of waiting: $110,263 lost
+
+THE "11% S&P RETURN" EXPLAINED
+-------------------------------
+Why our CAGR (6-8%) differs from quoted "11%":
+
+• Average Annual Return (~10-11%): Simple average of yearly returns 
+  → This is what headlines quote
+• Actual Market CAGR (~8-9%): Real compounded return with volatility
+• DCA CAGR (~6-8%): Return on total contributions over time
+
+The 2-3% gap is volatility drag + DCA measurement methodology.
+
+CONCLUSION
+----------
+Across 462 scenarios spanning 75 years, DCA beat hybrid strategies in 94%.
+
+✓ DO THIS:
+  • Set a fixed monthly investment budget
+  • Invest the full amount immediately on any convenient day
+  • Stay invested through ups and downs
+  • Expect 6-9% real CAGR over long periods
+
+✗ DON'T DO THIS:
+  • Wait for "dips" before investing
+  • Hold cash for the "perfect entry"
+  • Try to time monthly purchases
+
+THE BOTTOM LINE: Time in the market beats timing the market. The data 
+proves that trying to be clever with market timing—even with a disciplined, 
+rule-based approach—costs you money. The best strategy is the simplest: 
+invest consistently, invest immediately, and stay the course.
+
+================================================================================
+Analysis based on S&P 500 daily data (1950-2025). Past performance does not 
+guarantee future results. Educational purposes only, not financial advice.
+================================================================================
+
