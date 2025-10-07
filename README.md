@@ -23,7 +23,7 @@ We tested **462 scenarios** varying:
 **Hybrid (Buy-the-Dip):**
 - Invest 50% monthly ($500)
 - Hold 50% in cash at 3% risk-free rate
-- Deploy all cash when market drops X% from 52-week high
+- Deploy all cash when market drops X% from 52-week high (252 trading days)
 
 ## 📈 Results Summary
 
@@ -135,10 +135,11 @@ The 2-3% gap is due to:
 1. **Data Source:** S&P 500 daily closing prices (1950-2025) from [Stooq.com](https://stooq.com/q/d/?s=%5Espx)
 2. **Backtesting:** Historical simulation with no lookahead bias
 3. **Hybrid Trigger Logic:**
-   - Track 252-day (52-week) rolling high
+   - Track 252 trading days (≈52-week) rolling high
    - When new high is set, "arm" the trigger
    - Deploy all cash when price drops X% from that high
    - Reset after deployment
+   - *Note: Uses trading days (market open days), not calendar days*
 4. **CAGR Calculation:** `(final_value / total_contributed)^(1/years) - 1`
 
 ## 📊 Visualization Ideas
